@@ -1,0 +1,80 @@
+/* src/pages/EditorPage.css */
+.editor-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.editor-content {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+}
+
+.left-panel {
+  width: 250px;
+  background: #2c3e50;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+.canvas-wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background: #ecf0f1;
+}
+
+.canvas-area {
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+}
+
+.right-panel {
+  width: 300px;
+  background: #2c3e50;
+  color: white;
+  transition: width 0.3s;
+  position: relative;
+}
+
+.right-panel.open {
+  width: 300px;
+}
+
+.right-panel.closed {
+  width: 40px;
+}
+
+.panel-toggle {
+  position: absolute;
+  left: -20px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #34495e;
+  color: white;
+  border: none;
+  width: 20px;
+  height: 60px;
+  border-radius: 5px 0 0 5px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.panel-toggle:hover {
+  background: #4a6583;
+}
+
+.additional-tools {
+  padding: 15px;
+  border-top: 1px solid #4a6583;
+}
+
+.additional-tools h3 {
+  margin-bottom: 15px;
+  color: #95a5a6;
+  font-size: 14px;
+}

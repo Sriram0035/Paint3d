@@ -1,0 +1,80 @@
+/* src/components/Sidebar/ColorPicker.css */
+.color-picker-container {
+  padding: 15px;
+  background: #34495e;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.color-section h4 {
+  color: #95a5a6;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.preset-colors {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 5px;
+  margin-bottom: 15px;
+}
+
+.color-swatch {
+  width: 30px;
+  height: 30px;
+  border: 2px solid #2c3e50;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.color-swatch:hover {
+  transform: scale(1.1);
+}
+
+.current-color-display {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.color-preview {
+  width: 40px;
+  height: 40px;
+  border: 2px solid white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.color-value {
+  color: white;
+  font-size: 12px;
+}
+
+.color-picker-popup {
+  position: absolute;
+  z-index: 1000;
+  margin-top: 10px;
+}
+
+.color-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: 15px;
+}
+
+.action-button {
+  background: #4a6583;
+  color: white;
+  border: none;
+  padding: 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.action-button:hover {
+  background: #5a7593;
+}

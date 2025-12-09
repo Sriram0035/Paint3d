@@ -1,0 +1,50 @@
+.advanced-tools {
+  background: #34495e;
+  padding: 15px;
+  margin-top: 15px;
+  border-radius: 5px;
+}
+
+.advanced-tools h3 {
+  color: #95a5a6;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+.tool-options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.tool-option-btn {
+  background: #4a6583;
+  border: none;
+  color: white;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: left;
+  font-size: 12px;
+}
+
+.tool-option-btn.active {
+  background: #3498db;
+}
+
+.option-control {
+  background: #2c3e50;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.option-control label {
+  display: block;
+  color: #bdc3c7;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.option-control input {
+  width: 100%;
+}

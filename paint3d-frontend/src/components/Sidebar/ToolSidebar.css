@@ -1,0 +1,99 @@
+/* src/components/Sidebar/ToolOptions.css */
+.tool-options {
+  padding: 15px;
+  background: #34495e;
+  border-radius: 5px;
+  margin-top: 20px;
+  color: white;
+}
+
+.tool-options h3 {
+  font-size: 14px;
+  margin-bottom: 15px;
+  color: #95a5a6;
+  text-transform: uppercase;
+  border-bottom: 1px solid #4a6583;
+  padding-bottom: 5px;
+}
+
+.option-group {
+  margin-bottom: 15px;
+}
+
+.option-group label {
+  display: block;
+  font-size: 12px;
+  margin-bottom: 5px;
+  color: #bdc3c7;
+}
+
+.option-group input[type="range"] {
+  width: 100%;
+  height: 6px;
+  background: #4a6583;
+  border-radius: 3px;
+  outline: none;
+}
+
+.option-group input[type="range"]::-webkit-slider-thumb {
+  width: 16px;
+  height: 16px;
+  background: #3498db;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 2px solid white;
+}
+
+.option-group input[type="number"],
+.option-group input[type="color"],
+.option-group select {
+  width: 100%;
+  padding: 5px;
+  background: #4a6583;
+  border: 1px solid #5a7593;
+  border-radius: 3px;
+  color: white;
+}
+
+.color-palette {
+  margin-top: 20px;
+  padding-top: 15px;
+  border-top: 1px solid #4a6583;
+}
+
+.color-palette h4 {
+  font-size: 13px;
+  margin-bottom: 10px;
+  color: #95a5a6;
+}
+
+.color-options {
+  display: flex;
+  gap: 15px;
+}
+
+.primary-color,
+.secondary-color {
+  flex: 1;
+}
+
+.primary-color label,
+.secondary-color label {
+  font-size: 11px;
+  margin-bottom: 5px;
+  display: block;
+  color: #bdc3c7;
+}
+
+.color-preview {
+  width: 40px;
+  height: 40px;
+  border: 2px solid white;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.color-preview:hover {
+  transform: scale(1.1);
+}

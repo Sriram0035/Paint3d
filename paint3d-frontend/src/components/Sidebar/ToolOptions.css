@@ -1,0 +1,64 @@
+/* src/components/Sidebar/ToolOptions.css */
+.tool-options-panel {
+  padding: 15px;
+  background: #34495e;
+  margin-top: 15px;
+  border-radius: 5px;
+}
+
+.tool-options-section h4 {
+  color: #95a5a6;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+.option-group {
+  margin-bottom: 15px;
+}
+
+.option-group label {
+  display: block;
+  color: #bdc3c7;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.size-presets {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+
+.size-preset {
+  background: #4a6583;
+  border: none;
+  color: white;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 11px;
+}
+
+.size-preset.active {
+  background: #3498db;
+}
+
+.button-group {
+  display: flex;
+  gap: 5px;
+}
+
+.shape-option {
+  background: #4a6583;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 11px;
+}
+
+.shape-option.active {
+  background: #3498db;
+}

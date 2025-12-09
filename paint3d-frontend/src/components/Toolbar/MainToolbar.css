@@ -1,0 +1,72 @@
+/* src/components/Toolbar/MainToolbar.css */
+.main-toolbar {
+  background: #3498db;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.toolbar-section {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.toolbar-group {
+  display: flex;
+  gap: 5px;
+  border-right: 1px solid rgba(255,255,255,0.2);
+  padding-right: 20px;
+}
+
+.toolbar-group:last-child {
+  border-right: none;
+}
+
+.toolbar-btn {
+  background: rgba(255,255,255,0.1);
+  border: none;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: background 0.3s;
+  font-size: 14px;
+}
+
+.toolbar-btn:hover {
+  background: rgba(255,255,255,0.2);
+}
+
+.brush-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: rgba(255,255,255,0.1);
+  padding: 5px 15px;
+  border-radius: 4px;
+}
+
+.brush-controls label {
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+.brush-controls input[type="range"] {
+  width: 100px;
+}
+
+.brush-controls input[type="number"] {
+  width: 50px;
+  padding: 3px;
+  background: rgba(255,255,255,0.1);
+  border: 1px solid rgba(255,255,255,0.3);
+  border-radius: 3px;
+  color: white;
+}

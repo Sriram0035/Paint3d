@@ -1,0 +1,146 @@
+/* src/components/Sidebar/LayerPanel.css */
+.layer-panel {
+  background: #2c3e50;
+  color: white;
+  padding: 15px;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.panel-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.panel-header h3 {
+  margin: 0;
+  font-size: 16px;
+  color: #ecf0f1;
+}
+
+.add-layer-btn {
+  background: #3498db;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.layer-list {
+  margin-bottom: 20px;
+}
+
+.layer-item {
+  background: #34495e;
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.layer-item:hover {
+  background: #3d566e;
+}
+
+.layer-item.selected {
+  background: #2980b9;
+  border-left: 3px solid #3498db;
+}
+
+.layer-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.layer-type-icon {
+  width: 16px;
+  height: 16px;
+  border-radius: 2px;
+}
+
+.layer-type-icon.background {
+  background: #2ecc71;
+}
+
+.layer-type-icon.text {
+  background: #9b59b6;
+}
+
+.layer-type-icon.image {
+  background: #e74c3c;
+}
+
+.layer-type-icon.drawing {
+  background: #f39c12;
+}
+
+.layer-type-icon-3d {
+  background: #3498db;
+}
+
+.layer-name {
+  font-size: 14px;
+  flex: 1;
+}
+
+.layer-controls {
+  display: flex;
+  gap: 5px;
+}
+
+.layer-btn {
+  background: transparent;
+  border: none;
+  color: #bdc3c7;
+  cursor: pointer;
+  padding: 2px 5px;
+  border-radius: 3px;
+}
+
+.layer-btn:hover {
+  background: #4a6583;
+  color: white;
+}
+
+.layer-btn.delete:hover {
+  background: #e74c3c;
+}
+
+.layer-properties {
+  margin-top: 20px;
+  border-top: 1px solid #4a6583;
+  padding-top: 15px;
+}
+
+.layer-properties h4 {
+  margin-bottom: 10px;
+  color: #95a5a6;
+}
+
+.property-control {
+  margin-bottom: 10px;
+}
+
+.property-control label {
+  display: block;
+  font-size: 12px;
+  margin-bottom: 5px;
+  color: #bdc3c7;
+}
+
+.property-control input,
+.property-control select {
+  width: 100%;
+  padding: 5px;
+  background: #4a6583;
+  border: 1px solid #5a7593;
+  border-radius: 3px;
+  color: white;
+}
